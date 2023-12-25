@@ -1,0 +1,78 @@
+.health-summary-container{
+    margin-top: 72px;
+    background-color: #FFFF !important;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 46px ;
+    padding-right: 60px;
+    border-radius: 24px;
+border: 1px solid var(--Global-Stroke-Color, #F3F4F7);
+background: #FFF;
+    .heading{
+        margin-bottom: 65px;
+        display: flex;
+        .title{
+            color: var(--Primary-Black---Titles, #11142F);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-right: 24px;
+        }
+        .show-dropdown{
+            display: flex;
+            align-items: center;
+            color: var(--Small-Titles-Grey, #9EA3AA);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-right: 12px;
+        }
+        .btn{
+            padding: 0;
+        }
+        .right-heading{
+            color: #11142F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+    }
+    .donut-chart{
+        display: flex;
+        .security-chart{
+            margin-right: 120px;
+            // margin-left: 25px;
+            .title{
+                color: var(--Secondary-Black-Grey---Body, #242631);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .web-2{
+            margin-left: 80px;
+            .title{
+                color: var(--Secondary-Black-Grey---Body, #242631);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

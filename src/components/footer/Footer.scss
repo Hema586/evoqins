@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--Footer-Bg, #090D20);
+    height: 133px;
+    color: var(--Pure-White, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    .footer-content{
+        display: flex;
+        .copy-right{
+            margin-right: 199px;
+        }
+        .mid-footer{
+            display: flex;
+            gap: 40px;
+            margin-right: 200px;
+        }
+    }
+}

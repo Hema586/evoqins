@@ -1,0 +1,21 @@
+.dashboard-bar{
+    display: flex;
+    height: 88px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background: var(--Primary-Colors-Gradient, linear-gradient(90deg, #4660F1 0.41%, #8800DC 140.38%));
+    .item{
+        padding: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+        img{
+            margin-right: 6px;
+        }
+    }
+    .active{
+        background-color: #081350;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.secondary-domain{
+    margin-top: 40px;
+    margin: 20px;
+    padding :20px;
+ 
+    div{
+        color: var(--Primary-Black---Titles, #11142F);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 32px;
+        
+    }
+    table{
+        background-color: #F3F4F7 ;
+        thead{
+            background-color: #F3F4F7 ;
+            tr{
+                background-color: #F3F4F7 ;
+                th{
+                    // color: var(--Small-Titles-Grey, #9EA3AA);
+                    background-color: #F3F4F7 ;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;   
+                }
+            }
+        }
+    }
+}

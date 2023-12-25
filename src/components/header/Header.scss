@@ -1,0 +1,45 @@
+.main-header{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    .search-bar{
+        display: flex;
+        border-radius: 8px;
+        .input-search{
+            display: flex;
+            width: 540px;
+            height: 48px;
+            margin-left: 158px;
+            justify-content: flex-end;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid var(--Global-Stroke-Color, #F3F4F7);
+            background: var(--Search-Bar-Bg, #eeecec);
+            outline: none;
+        }
+        button{
+            width: 52px;
+            height: 48px;
+            background: var(--Primary-Colors-Gradient, linear-gradient(90deg, #4660F1 0.41%, #8800DC 140.38%));
+            outline: none;
+            border: none;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+    }
+    .profile-details{
+        display: flex;
+        align-items: center;
+        .avatar-img{
+            margin-right: 6px;
+        }
+    }
+    .notification-icon{
+        margin-left: 65px;
+        margin-right: 24px;
+    }
+    .cart-icon{
+        margin-left: 24px;
+    }
+}

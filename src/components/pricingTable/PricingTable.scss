@@ -1,0 +1,43 @@
+.recommended-domain{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--Primary-Colors-Gradient, #4660F1);
+    background: var(--Summary-Card---Light-Yellow-Bg, #FBF9F2);
+    div{
+        color: var(--Primary-Black---Titles, #11142F);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+    table{
+        tbody{
+            tr{
+                .striked-price{
+                    color: var(--Red-Old-Price, #FF5050);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration-line: strikethrough;
+                    span{
+                        color: var(--Secondary-Black-Grey---Body, #242631);
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        span{
+                            color: var(--Secondary-Black-Grey---Body, #242631);
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

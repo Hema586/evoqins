@@ -1,0 +1,31 @@
+.chart-web2{
+    display: flex;
+    .security-chart{
+        .title{
+            color: var(--Secondary-Black-Grey---Body, #242631);
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .bar-graph-container{
+        display: flex;
+        flex-direction: column;
+        .bar-graph{
+            display: flex;
+        }
+    }
+}
+.subtitle{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 100px;
+    background: var(--Pure-White, #FFF);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.08);
+}
