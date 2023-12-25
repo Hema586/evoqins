@@ -31,9 +31,9 @@ const Main = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "center",
-                // alignContent: "center",
-                width: "100%",
+                width:'100%',
+
+                alignItems: "center",
               }}
             >
               <PricingTable leftProp={leftProp} />

@@ -4,7 +4,7 @@ import "./ExpiryTable.scss";
 const ExpiryTable = (props) => {
   return (
     <div
-      style={{ marginLeft: props.leftProp, marginRight: props.leftProp }}
+     
       className="recommended-domain-expire"
     >
       <div>Expiring Soon</div>

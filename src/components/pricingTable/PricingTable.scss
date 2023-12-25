@@ -1,118 +1,128 @@
 .recommended-domain {
-    padding: 20px;
-    margin: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 8px;
-    border: 1px solid var(--Primary-Colors-Gradient, #4660f1);
-    background: var(--Summary-Card---Light-Yellow-Bg, #fbf9f2);
-  
-    div {
-      color: var(--Primary-Black---Titles, #11142f);
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      margin-bottom: 32px;
-    }
-    table {
-      tbody {
-        tr {
-          .striked-price {
-            color: var(--Red-Old-Price, #ff5050);
-            font-size: 18px;
+  //   padding: 20px;
+  //   width: 80%;
+
+  //   margin-top: 40px;
+  //   margin-bottom: 40px;
+  //   border-radius: 8px;
+  //   border: 1px solid var(--Primary-Colors-Gradient, #4660f1);
+  //   background: var(--Summary-Card---Light-Yellow-Bg, #fbf9f2);
+  width: 80%;
+  margin-top: 72px;
+  //   background-color: #ffff !important;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 46px;
+  padding-right: 60px;
+  border-radius: 24px;
+  border: 1px solid var(--Primary-Colors-Gradient, #4660f1);
+  background: var(--Summary-Card---Light-Yellow-Bg, #fbf9f2);
+
+  div {
+    color: var(--Primary-Black---Titles, #11142f);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
+  table {
+    tbody {
+      tr {
+        .striked-price {
+          color: var(--Red-Old-Price, #ff5050);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration-line: strikethrough;
+          span {
+            color: var(--Secondary-Black-Grey---Body, #242631);
+            font-size: 14px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             line-height: normal;
-            text-decoration-line: strikethrough;
             span {
               color: var(--Secondary-Black-Grey---Body, #242631);
-              font-size: 14px;
+              font-size: 24px;
               font-style: normal;
-              font-weight: 500;
+              font-weight: 600;
               line-height: normal;
-              span {
-                color: var(--Secondary-Black-Grey---Body, #242631);
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-              }
             }
           }
         }
       }
     }
   }
-  
-  .recommended-domain-expire {
-    padding: 20px;
-    margin: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 8px;
-    background: var(--Summary-Card---Light-Yellow-Bg, #fbf9f2);
-  
-    div {
-      color: var(--Primary-Black---Titles, #11142f);
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      margin-bottom: 32px;
-    }
-    table {
-      tbody {
-        tr {
-          .striked-price {
-            color: var(--Red-Old-Price, #ff5050);
-            font-size: 18px;
+}
+
+.recommended-domain-expire {
+  width: 80%;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  background: var(--Summary-Card---Light-Yellow-Bg, #fbf9f2);
+
+  div {
+    color: var(--Primary-Black---Titles, #11142f);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
+  table {
+    tbody {
+      tr {
+        .striked-price {
+          color: var(--Red-Old-Price, #ff5050);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration-line: strikethrough;
+          span {
+            color: var(--Secondary-Black-Grey---Body, #242631);
+            font-size: 14px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             line-height: normal;
-            text-decoration-line: strikethrough;
             span {
               color: var(--Secondary-Black-Grey---Body, #242631);
-              font-size: 14px;
+              font-size: 24px;
               font-style: normal;
-              font-weight: 500;
+              font-weight: 600;
               line-height: normal;
-              span {
-                color: var(--Secondary-Black-Grey---Body, #242631);
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-              }
             }
           }
         }
       }
     }
   }
-  
-  .title-with-button {
-    display: flex;
-    align-items: center;
-  }
-  .btn-temp {
-    border-radius: 30px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 20px;
-    background: var(
-      --Primary-Colors-Gradient,
-      linear-gradient(90deg, #4660f1 0.41%, #8800dc 140.38%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 5px 10px;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    border: 2px solid #0022ff;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-  }
-  
+}
+
+.title-with-button {
+  display: flex;
+  align-items: center;
+}
+.btn-temp {
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  background: var(
+    --Primary-Colors-Gradient,
+    linear-gradient(90deg, #4660f1 0.41%, #8800dc 140.38%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px 10px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  border: 2px solid #0022ff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}

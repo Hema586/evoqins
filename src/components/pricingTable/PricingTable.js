@@ -6,7 +6,7 @@ const PricingTable = (props) => {
 
   return (
     <div
-      style={{ marginLeft: props.leftProp, marginRight: props.leftProp }}
+     
       className="recommended-domain"
     >
       <div className="title-with-button">
