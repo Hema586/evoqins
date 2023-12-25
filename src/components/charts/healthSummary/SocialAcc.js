@@ -22,7 +22,7 @@ const SocialAcc = () => {
     <Doughnut data={data}  />
     <div style={{ textAlign: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
       <div style={{ fontSize: '20px', color: '#333', fontWeight: 'bold' }}>100%</div>
-      <div style={{ fontSize: '12px', color: '#777' }}>data</div>
+      <div style={{ fontSize: '12px', color: '#777' }}>safe</div>
     </div>
   </div>
   )

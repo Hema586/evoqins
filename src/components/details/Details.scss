@@ -1,53 +1,59 @@
-.details-main{
+.details-main {
     display: flex;
     margin-top: 24px;
     height: 251px;
     gap: 30px;
-    background: var(--Primary-Gradient-Light, linear-gradient(90deg, #E9ECFF 2.38%, #F6E7FF 99.05%));
-    .container{
-        margin-top: 40px;
-        width: 350px;
-        height: 171px;
-        border-radius: 24px;
-        border: 1px solid var(--Global-Stroke-Color, #F3F4F7);
-        background: var(--Pure-White, #FFF);
-        .heading{
-            margin-top: 15px;
-            color: var(--Secondary-Black-Grey---Body, #242631);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-transform: lowercase;
-            img{
-                margin-right: 8px;
-            }
-        }
-        .body-content{
-            margin-top: 24px;
-            .content{
-                display: flex;
-                margin-bottom: 16px;
-                color: #242631;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                span{
-                    font-weight: 600;
-                }
-            }
-        }
-    }
-    .add-container{
-        color: #4660F1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 16px;
+    padding-left: 10%;
+    padding-left: 10%;
+    background: var(
+      --Primary-Gradient-Light,
+      linear-gradient(90deg, #e9ecff 2.38%, #f6e7ff 99.05%)
+    );
+    .container {
+      margin-top: 40px;
+      width: 350px;
+      height: 171px;
+      border-radius: 24px;
+      border: 1px solid var(--Global-Stroke-Color, #f3f4f7);
+      background: var(--Pure-White, #fff);
+      .heading {
+        margin-top: 15px;
+        color: var(--Secondary-Black-Grey---Body, #242631);
+        font-size: 24px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: normal;
+        text-transform: lowercase;
+        img {
+          margin-right: 8px;
+        }
+      }
+      .body-content {
+        margin-top: 24px;
+        .content {
+          display: flex;
+          margin-bottom: 16px;
+          color: #242631;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          span {
+            font-weight: 600;
+          }
+        }
+      }
     }
-}
+    .add-container {
+      color: #4660f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  

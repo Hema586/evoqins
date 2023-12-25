@@ -1,42 +1,43 @@
-.health-summary-container{
-    .right-column{
-        display: flex;
-        .second-column{
-            width: 380px;
-            height: 55px;
-            margin-left: 100px;
-            color: var(--Primary-Black---Titles, #11142F);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            div{
-                margin-bottom: 32px;
-                .right-arrow{
-                    float: right;
-                }
-            }
+.health-summary-container {
+    .right-column {
+      display: flex;
+      .second-column {
+        width: 380px;
+        height: 55px;
+        margin-left: 100px;
+        color: var(--Primary-Black---Titles, #11142f);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        div {
+          margin-bottom: 32px;
+          .right-arrow {
+            float: right;
+          }
         }
-        .last-column{
-            margin-left: 22px;
-            .content{
-                margin-bottom: 32px;
-                color: #242631;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                .sub-title{
-                    color: var(--Secondary-Black-Grey---Body, #242631);
-                    font-size: 12px;
-                    font-weight: 600;
-                }
-                .sub-title-url{
-                    color: var(--Secondary-Black-Grey---Body, #4660F1);
-                    font-size: 12px;
-                    font-weight: 600;
-                }
-            }
+      }
+      .last-column {
+        margin-left: 22px;
+        .content {
+          margin-bottom: 32px;
+          color: #242631;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          .sub-title {
+            color: var(--Secondary-Black-Grey---Body, #242631);
+            font-size: 12px;
+            font-weight: 600;
+          }
+          .sub-title-url {
+            color: var(--Secondary-Black-Grey---Body, #4660f1);
+            font-size: 12px;
+            font-weight: 600;
+          }
         }
+      }
     }
-}
+  }
+  

@@ -1,32 +1,53 @@
-.secondary-domain{
-    margin-top: 40px;
+.secondary-domain {
     margin: 20px;
-    padding :20px;
- 
-    div{
-        color: var(--Primary-Black---Titles, #11142F);
-        font-size: 24px;
-        font-style: normal;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 20px;
+    position: relative;
+  
+    div {
+      color: var(--Primary-Black---Titles, #11142f);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    table {
+      border-collapse: collapse; // Remove default spacing between cells
+      width: 85%;
+      th {
+        background-color: #f3f4f7;
+        font-size: 12px;
         font-weight: 600;
         line-height: normal;
-        margin-bottom: 32px;
-        
-    }
-    table{
-        background-color: #F3F4F7 ;
-        thead{
-            background-color: #F3F4F7 ;
-            tr{
-                background-color: #F3F4F7 ;
-                th{
-                    // color: var(--Small-Titles-Grey, #9EA3AA);
-                    background-color: #F3F4F7 ;
-                    font-size: 12px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: normal;   
-                }
-            }
+      }
+  
+      tr {
+        background-color: #f3f4f7;
+  
+        td {
+          font-size: 12px;
+          background-color: #f3f4f7;
+          font-weight: 600;
+          line-height: normal;
         }
+      }
     }
-}
+  }
+  
+  .table-color {
+    background-color: #f3f4f7;
+  }
+  
+  .secondary-domain-align {
+    position: absolute;
+    top: -20px;
+    left: 9%;
+  }
+  
